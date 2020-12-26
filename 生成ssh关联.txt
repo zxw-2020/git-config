@@ -1,0 +1,13 @@
+ssh-keygen -t rsa -C "761479698@qq.com"
+
+【在windows7下安装git后,运行 cd ~/.ssh
+$ bash: cd: /c/Users/Administrator/.ssh: No such file or directory
+出现以上问题,原因:在windows7下安装git后没有ssh
+解决办法是:  全部留空即可,一路回车】
+
+ssh -T git@github.com
+
+
+git config --global user.name "zxw-2020"
+
+git config --global user.email "761479698@qq.com"
